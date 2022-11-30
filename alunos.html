@@ -4,9 +4,8 @@
    <title>Tech4me</title>
 </head>
 <body>
-    <table border="1" cellspacing="2" cellpadding="1" margin="1" bgcolor="D7E0E1"; style="margin-left: auto; margin-right: auto; margin-top: 100px;">
-        <caption><h1>Informações</h1></caption> <!--Título-->
-        <thead> <!--Cabeça--> 
+    <table>   <!--Não devemos usar html para fins de layout desde o HTML4-->       <!--border="1" cellspacing="2" cellpadding="1" margin="1" bgcolor="D7E0E1"; style="margin-left: auto; margin-right: auto; margin-top: 100px;">-->
+         <caption><details>Informações sobre alunos da Tech4me</details></caption> <!--Título adaptado para screen reader-->   
             <tr> <!--Table row-->
                 <th>Alunos</th> <!-- Table header-->
                 <th>Idade</th>
@@ -88,7 +87,7 @@
         </tbody>     
         <tfoot> <!--Pé -->
             <tr>
-                <td colspan="2">18 Alunos</td>
+                <td colspan="2">Ao total 18 alunos</td>
             </tr>
         </tfoot>   
     </table>
